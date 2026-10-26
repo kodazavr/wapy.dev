@@ -21,7 +21,7 @@ FROM base AS runner
 WORKDIR /app
 
 # Add metadata about your image
-LABEL org.opencontainers.image.source="https://github.com/meceware/wapy.dev"
+LABEL org.opencontainers.image.source="https://github.com/kodazavr/wapy.dev"
 LABEL org.opencontainers.image.description="Wapy.dev - Track, manage, and optimize your recurring expenses in one powerful dashboard"
 LABEL org.opencontainers.image.licenses="MIT + Commons Clause"
 
